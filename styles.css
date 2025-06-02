@@ -1,3 +1,54 @@
-h1{
-    color: red;
+body{
+    background-color: rgb(17, 17, 17);
+}
+.banner{
+    height: 25%;
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button-logo{
+    background-color: rgb(17, 17, 17);
+    border: thick solid rgb(151 197 180);
+    border-radius: 80px; /* Adjust the value as needed */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logo{
+    width: 40%;
+    height: 40%;
+}
+.c1{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    color: rgb(249 248 235);
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.c2{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    color: rgb(249 248 235);
+    font-size: 18px;
+}
+
+.page-layout {
+    display: flex;
+    align-items: flex-start;
+}
+
+.content-table {
+    width: 200px;
+    flex-shrink: 0;
+}
+
+.main-content {
+    flex: 1;
+    padding-left: 20px;
+    overflow-wrap: break-word;
+    white-space: normal;
+    border: solid rgb(151 197 180);
+    border-radius: 10px; /* Adjust the value as needed */
 }
